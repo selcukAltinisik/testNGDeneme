@@ -18,7 +18,7 @@ public class C04_DependsOnMethod extends TestBaseBeforeClassAfterClass {
 
     @Test   (dependsOnMethods = "test1")
     public void test2() {
-        //  Nutella aratalım.
+        //  Nutella aratalım..
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Nutella", Keys.ENTER);
     }
 
