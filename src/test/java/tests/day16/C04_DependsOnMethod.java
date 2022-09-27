@@ -24,7 +24,7 @@ public class C04_DependsOnMethod extends TestBaseBeforeClassAfterClass {
 
     @Test   (dependsOnMethods = "test2")
     public void test3() {
-        //  Sonuc yazısının amazon içerdiğini test edelim..
+        //  Sonuc yazısının amazon içerdiğini test edelim...
         WebElement sonuc = driver.findElement(By.xpath("//*[@class='a-section a-spacing-small a-spacing-top-small']"));
         Assert.assertFalse(sonuc.getText().contains("amazon"));
     }

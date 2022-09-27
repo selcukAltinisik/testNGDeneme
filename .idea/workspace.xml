@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C01_BeforeMethodAfterMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C02_BeforeClassAfterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C03_Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C04_DependsOnMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16/Odev01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseBeforeMethodAfterMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseBeforeAfter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseBeforeClassAfterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseBeforeClassAfterClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
