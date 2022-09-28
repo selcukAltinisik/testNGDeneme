@@ -14,7 +14,7 @@ public class C03_SoftAssert extends TestBaseBeforeClassAfterClass {
         SoftAssert baslangic ve bitis satirlari arasindaki tum assertion'lari yapip
         bitis olarak belirtmemiz gereken assertAll() methoduyla test methodumuzdaki
         butun assertion'lari kontrol eder. Failed olan olursa assertion yaptigimiz
-        methodun sonuna yazdigimiz mesaji bize konsolda verir...
+        methodun sonuna yazdigimiz mesaji bize konsolda verir....
         */
 
         SoftAssert softAssert = new SoftAssert();
