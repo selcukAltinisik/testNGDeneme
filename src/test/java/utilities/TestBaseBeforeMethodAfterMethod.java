@@ -17,13 +17,13 @@ public abstract class TestBaseBeforeMethodAfterMethod {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         LocalDateTime date = LocalDateTime.now();
         DateTimeFormatter formater = DateTimeFormatter.ofPattern("YYMMddHHmmss");
         tarih = date.format(formater);
     }
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
 }
