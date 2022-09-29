@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17/C04_DriverIlkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17/C05_AmazonPageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DhtmlgoodiesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C01_PageClassFaceBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C02_ConfigurationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practice06/P00_DersNotu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practice06/P01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practice06/P06_Odev01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day17/C03_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day17/C03_SoftAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/package05/P01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/practice05/P01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/package05/P02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/practice05/P02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,34 +40,33 @@
   <component name="ProjectId" id="2FMao6HeHm1SkP6cu2Du8qufRuW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/test/java/utilities&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/test/java/utilities",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C05_AmazonPageClass">
-    <configuration name="C03_SoftAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C02_ConfigurationProperties">
+    <configuration name="C01_PageClassFaceBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
+          <option name="PATTERN" value="tests.day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C03_SoftAssert" />
+      <option name="PACKAGE_NAME" value="tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_PageClassFaceBookTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -68,16 +74,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_SoftAssert.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_PageClassFaceBookTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
+          <option name="PATTERN" value="tests.day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C03_SoftAssert" />
+      <option name="PACKAGE_NAME" value="tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_PageClassFaceBookTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -86,16 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_DriverIlkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_ConfigurationProperties" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
+          <option name="PATTERN" value="tests.day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C04_DriverIlkTest" />
+      <option name="PACKAGE_NAME" value="tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18.C02_ConfigurationProperties" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,16 +109,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_AmazonPageClass" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="P01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17.*" />
+          <option name="PATTERN" value="tests.practice06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17.C05_AmazonPageClass" />
+      <option name="PACKAGE_NAME" value="tests.practice06" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice06.P01" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -120,17 +126,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Driver" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="P01.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilities.*" />
+          <option name="PATTERN" value="tests.practice06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="utilities" />
-      <option name="MAIN_CLASS_NAME" value="utilities.Driver" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.practice06" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice06.P01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C05_AmazonPageClass" />
-        <item itemvalue="TestNG.C04_DriverIlkTest" />
-        <item itemvalue="TestNG.Driver" />
-        <item itemvalue="TestNG.C03_SoftAssert.test01" />
-        <item itemvalue="TestNG.C03_SoftAssert" />
+        <item itemvalue="TestNG.C02_ConfigurationProperties" />
+        <item itemvalue="TestNG.C01_PageClassFaceBookTest" />
+        <item itemvalue="TestNG.C01_PageClassFaceBookTest.test01" />
+        <item itemvalue="TestNG.P01" />
+        <item itemvalue="TestNG.P01.test01" />
       </list>
     </recent_temporary>
   </component>
