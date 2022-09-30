@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DhtmlgoodiesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C01_PageClassFaceBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C02_ConfigurationProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practice06/P00_DersNotu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practice06/P01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practice06/P06_Odev01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/package05/P01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/practice05/P01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/package05/P02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/practice05/P02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-    </list>
+    <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
