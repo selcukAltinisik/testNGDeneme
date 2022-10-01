@@ -11,9 +11,10 @@ import utilities.TestBaseBeforeMethodAfterMethod;
 public class C04_DependsOnMethod extends TestBaseBeforeClassAfterClass {
 
     @Test
-    public void test1() {
+    public void test1() throws InterruptedException {
         //  amazon ana sayfasına gidelim...
         driver.get("https://www.amazon.com");
+        Thread.sleep(3000);
     }
 
     @Test   (dependsOnMethods = "test1")

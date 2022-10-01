@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HmcPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16/Odev02_Pdf_sf175.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C03_ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19/C01_SingletonPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19/C02_NegatifTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19/C03_PozitifTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20/C01_SmokePozitifTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20/C02_SmokeNegatifTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20/C03_E2ETest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16/C04_DependsOnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16/C04_DependsOnMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day17/C03_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day17/C03_SoftAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18/C01_PageClassFaceBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C01_PageClassFaceBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18/C02_ConfigurationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C02_ConfigurationProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +62,17 @@
       <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C02_ConfigurationProperties">
-    <configuration name="C01_PageClassFaceBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C03_E2ETest">
+    <configuration name="C02_SmokeNegatifTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day18.*" />
+          <option name="PATTERN" value="tests.day20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day18" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_PageClassFaceBookTest" />
+      <option name="PACKAGE_NAME" value="tests.day20" />
+      <option name="MAIN_CLASS_NAME" value="tests.day20.C02_SmokeNegatifTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -63,17 +80,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_PageClassFaceBookTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day18.*" />
+          <option name="PATTERN" value="tests.day20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day18" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_PageClassFaceBookTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="tests.day20" />
+      <option name="MAIN_CLASS_NAME" value="tests.day20.C03_E2ETest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_E2ETest.E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day20" />
+      <option name="MAIN_CLASS_NAME" value="tests.day20.C03_E2ETest" />
+      <option name="METHOD_NAME" value="E2ETest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,16 +115,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ConfigurationProperties" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_DependsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day18.*" />
+          <option name="PATTERN" value="tests.day16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day18" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18.C02_ConfigurationProperties" />
+      <option name="PACKAGE_NAME" value="tests.day16" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16.C04_DependsOnMethod" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,34 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_DependsOnMethod.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.practice06.*" />
+          <option name="PATTERN" value="tests.day16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.practice06" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice06.P01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P01.test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice06" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice06.P01" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="tests.day16" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16.C04_DependsOnMethod" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C02_ConfigurationProperties" />
-        <item itemvalue="TestNG.C01_PageClassFaceBookTest" />
-        <item itemvalue="TestNG.C01_PageClassFaceBookTest.test01" />
-        <item itemvalue="TestNG.P01" />
-        <item itemvalue="TestNG.P01.test01" />
+        <item itemvalue="TestNG.C03_E2ETest" />
+        <item itemvalue="TestNG.C03_E2ETest.E2ETest" />
+        <item itemvalue="TestNG.C02_SmokeNegatifTest" />
+        <item itemvalue="TestNG.C04_DependsOnMethod" />
+        <item itemvalue="TestNG.C04_DependsOnMethod.test1" />
       </list>
     </recent_temporary>
   </component>

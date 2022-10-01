@@ -3,47 +3,67 @@ package utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 
 import java.time.Duration;
 
 public class Driver {
 
+    private Driver(){
+
+    }
+
     static WebDriver driver;
-    // testlerimizi calistirdigimizda her seferinde yeni driver oludturdugu icin
-    // her test methodu icin yeni bir pencere (driver) aciyor
-    // eger driver'a bir deger atanmamissa yani driver == null ise
-    // bir kere driver'i calistir diyerek bir kere if icini calistiracak
-    // ve driver artik bir kere calistigi icin ve deger atandigi icin null olmayacak
-    // ve direk return edecek ve diger testlerimiz ayni pencere (driver) uzerinde calisacak
 
-    public static WebDriver getDriver(){
+        /*
+        Testlerimizi çalıştırdığımızda her seferinde yeni driver oluşturduğu için her test methodu
+        için yeni bir pencere(driver) açıyor. Eğer driver'a bir değer atanmamışsa yani driver==null ise
+        bir kere driver'i çalıştır diyerek bir kere if içini çalıştıracak. Ve driver artık bir kere
+        çalıştığı için ve değer atandığı için null olmayacak ve direk return edecek ve diğer
+        teslerimiz aynı pencere(driver) üzerinde çalışacak
+         */
 
-        if (driver==null) {
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
 
+    public static WebDriver getDriver() {
+        if (driver == null) {
+            switch (ConfigReader.getProperty("browser")){
+                case "edge" :
+                    WebDriverManager.edgedriver().setup();
+                    driver = new EdgeDriver();
+                    break;
+                case "firefox" :
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                case "opera" :
+                    WebDriverManager.operadriver().setup();
+                    driver = new OperaDriver();
+                    break;
+                case "headless-chrome" :
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
+                    break;
+                default:
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
             }
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        }
         return driver;
     }
-
-    public static void  closeDriver(){
-
-        if (driver!=null){  //  driver'a değer atanmışsa kapat
+    public static void closeDriver() {
+        if (driver != null) { // driver'a değer atanmışsa kapat
             driver.close();
-            driver=null;    //  Kapandıktan sonra sonraki açmaları garanti altına almak için driver'ı tekrar null yaptık.
+            driver = null; // Kapandıktan sonra sonraki açmaları garanti altına almak için driver'i tekrar null yaptık
         }
-
     }
-
-    @Test
-    public void quitDriver() {
-        if (driver!=null){
+    public static void quitDriver() {
+        if (driver != null)
             driver.quit();
-            driver=null;
-        }
-
+        driver = null;
     }
 }
