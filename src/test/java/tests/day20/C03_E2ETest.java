@@ -45,7 +45,7 @@ public class C03_E2ETest {
         //“RoomReservation was inserted successfully” textinin göründüğünü test edin.....
         Thread.sleep(3000);
         Assert.assertTrue(hmcPage.roomReservationText.isDisplayed());
-        //OK butonuna tıklayın.
+        //OK butonuna tıklayın..
         hmcPage.okButton.click();
     }
 }
