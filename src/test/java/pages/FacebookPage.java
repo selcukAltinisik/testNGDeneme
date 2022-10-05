@@ -19,7 +19,21 @@ public class FacebookPage {
     public WebElement sifre;
     @FindBy(xpath = "//*[@class='_9ay7']")
     public WebElement girisYapilmadi;
+
     @FindBy(xpath = "//*[@class='_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy']")
     public WebElement login;
+
+    @FindBy(xpath = "//div[@class='_9kpn']")
+    public WebElement buSeninHesabinMi;
+
+    @FindBy(xpath = "//button[@class='_42ft _4jy0 _9kpt _4jy5 _4jy1 selected _51sy']")
+    public WebElement evetDevamEt;
+
+    @FindBy(xpath = "//a[text()='Sen değil misin?']")
+    public WebElement senDegilMisin;
+
+    @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div/div[2]/div[2]/form/div/div[2]/div[2]/a")
+    public WebElement sifreniMiUnuttun;
+
 
 }

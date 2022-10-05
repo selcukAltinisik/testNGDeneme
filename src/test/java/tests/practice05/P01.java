@@ -50,7 +50,7 @@ public class P01 extends TestBaseBeforeMethodAfterMethod {
 
         //choose your tool -> Selenium Webdriver
         driver.findElement(By.xpath("//input[@id='tool-2']")).click();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
         // choose your continent -> Antartica
         // WebElement dropdownContinent =  driver.findElement(By.xpath("//select[@id='continents']"));

@@ -8,7 +8,7 @@ import utilities.Driver;
 
 public class C01_PageClassFaceBookTest {
     @Test
-    public void test01() {
+    public void test01() throws InterruptedException {
         //https://www.facebook.com/ adresine gidin
         Driver.getDriver().get("https://www.facebook.com/");
 
@@ -23,7 +23,23 @@ public class C01_PageClassFaceBookTest {
         facebookPage.sifre.sendKeys(faker.internet().password());
         facebookPage.login.click();
 
+        Thread.sleep(5000);
         //Basarili giris yapilamadigini test edin
-        Assert.assertTrue(facebookPage.girisYapilmadi.isDisplayed());
+        if (facebookPage.girisYapilmadi.isDisplayed()){
+            Thread.sleep(1000);
+            Assert.assertTrue(facebookPage.girisYapilmadi.isDisplayed());
+        } else if (facebookPage.evetDevamEt.isDisplayed()) {
+            Thread.sleep(3000);
+
+            facebookPage.senDegilMisin.click();
+            Thread.sleep(3000);
+            Assert.assertTrue(facebookPage.girisYapilmadi.isDisplayed());
+
+        } else if (facebookPage.sifreniMiUnuttun.isDisplayed()){
+            Thread.sleep(1000);
+            Assert.assertTrue(facebookPage.sifreniMiUnuttun.isDisplayed());
+        }
+        Driver.closeDriver();
     }
 }
+
