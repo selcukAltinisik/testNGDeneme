@@ -4,7 +4,7 @@ xml dosyasında belirli methodları çalıştırmak istersek
 @Test notasyonundan sonra parantez açıp grup ismi belirtmemiz gerekiyor.
 .xml dosyasında test tag'ından sonra groups tag'ı altında run tag'ı içine
 gruplandırdığımız methodların grup ismini belirtmemiz gerekiyor.
-Ve son olarak grupladığımız methodların hangi package altında olduğunu belirtmemiz gerekir....
+Ve son olarak grupladığımız methodların hangi package altında olduğunu belirtmemiz gerekir.....
 -->
 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
