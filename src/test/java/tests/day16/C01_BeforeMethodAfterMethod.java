@@ -11,7 +11,7 @@ public class C01_BeforeMethodAfterMethod extends TestBaseBeforeMethodAfterMethod
 
     }
 
-    @Test
+    @Test (groups = "gp1")
     public void bestBuyTesti() {
         driver.get("https://www.bestbuy.com");
     }
