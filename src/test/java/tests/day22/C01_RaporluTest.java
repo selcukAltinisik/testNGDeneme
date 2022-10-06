@@ -29,7 +29,7 @@ public class C01_RaporluTest extends TestBaseRapor {
         Actions actions = new Actions(Driver.getDriver());
 
         //  -test data password : 12345 dataları girip login e basın
-        //  -login butonuna tiklayin
+        //  -login butonuna tiklayin.
         actions.sendKeys(Keys.TAB).sendKeys(ConfigReader.getProperty("pass")).sendKeys(Keys.TAB,Keys.ENTER).perform();
 
         extentTest.info("Doğru kullanıcı email ve password girildi");
