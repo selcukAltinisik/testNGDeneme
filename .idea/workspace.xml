@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tumTestleriCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrossBrowserClassCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BrcPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day21/C01_ScreenShotReusableMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day21/C02_WindowHandlesReusableMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day21/HomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C01_RaporluTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C02_HardAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C03_SoftAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tumTestleriParalelCalistirma.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18/C01_PageClassFaceBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18/C01_PageClassFaceBookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/practice05/P01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/practice05/P01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseBeforeClassAfterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseBeforeClassAfterClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +61,21 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.day22" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/tumTestleriCalistirma.xml">
-    <configuration name="C01_PageClassFaceBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C02_HardAssert">
+    <configuration name="C01_RaporluTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day18.*" />
+          <option name="PATTERN" value="tests.day22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day18" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_PageClassFaceBookTest" />
+      <option name="PACKAGE_NAME" value="tests.day22" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22.C01_RaporluTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -70,16 +83,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_PageClassFaceBookTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_RaporluTest.test01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day18.*" />
+          <option name="PATTERN" value="tests.day22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day18" />
-      <option name="MAIN_CLASS_NAME" value="tests.day18.C01_PageClassFaceBookTest" />
+      <option name="PACKAGE_NAME" value="tests.day22" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22.C01_RaporluTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -88,37 +101,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/belirliGruplariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/belirliGruplariCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/tumTestleriCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/tumTestleriCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_RaporluTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.practice07.*" />
+          <option name="PATTERN" value="tests.day22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.practice07" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice07.P01" />
+      <option name="PACKAGE_NAME" value="tests.day22" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22.C01_RaporluTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_HardAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day22" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22.C02_HardAssert" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/CrossBrowserClassCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/CrossBrowserClassCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -127,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/tumTestleriCalistirma.xml" />
-        <item itemvalue="TestNG.C01_PageClassFaceBookTest.test01" />
-        <item itemvalue="TestNG.C01_PageClassFaceBookTest" />
-        <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/belirliGruplariCalistirma.xml" />
-        <item itemvalue="TestNG.P01" />
+        <item itemvalue="TestNG.C02_HardAssert" />
+        <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/CrossBrowserClassCalistirma.xml" />
+        <item itemvalue="TestNG.C01_RaporluTest.test01 (1)" />
+        <item itemvalue="TestNG.C01_RaporluTest.test01" />
+        <item itemvalue="TestNG.C01_RaporluTest" />
       </list>
     </recent_temporary>
   </component>
