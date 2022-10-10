@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HerokuTestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/log4J/Log4jTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practice08/P01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/practice08/P01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/practice08/P01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +51,7 @@
       <recent name="tests.day22" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Log4jTest1.log4JTest1">
-    <configuration name="C01_DataProvider.test03" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day23" />
-      <option name="MAIN_CLASS_NAME" value="tests.day23.C01_DataProvider" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.P01">
     <configuration name="C02_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
@@ -135,13 +114,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.practice08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.practice08" />
+      <option name="MAIN_CLASS_NAME" value="tests.practice08.P01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.P01" />
         <item itemvalue="TestNG.Log4jTest1.log4JTest1" />
         <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/test/CrossBrowserParalelCalistirma.xml" />
         <item itemvalue="TestNG.C02_HardAssert" />
         <item itemvalue="TestNG.C02_DataProvider" />
-        <item itemvalue="TestNG.C01_DataProvider.test03" />
       </list>
     </recent_temporary>
   </component>
