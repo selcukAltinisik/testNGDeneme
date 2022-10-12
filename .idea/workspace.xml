@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practice09/SearchProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/practice08/P01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/practice08/P01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day22/C03_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C03_SoftAssert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +53,8 @@
       <recent name="tests.day22" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.P01">
-    <configuration name="C02_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day23" />
-      <option name="MAIN_CLASS_NAME" value="tests.day23.C02_DataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_HardAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/CrossBrowserClassCalistirma.xml">
+    <configuration name="C03_SoftAssert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +63,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.day22" />
-      <option name="MAIN_CLASS_NAME" value="tests.day22.C02_HardAssert" />
+      <option name="MAIN_CLASS_NAME" value="tests.day22.C03_SoftAssert" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/CrossBrowserClassCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/CrossBrowserClassCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/CrossBrowserClassCalistirma.xml" />
+        <item itemvalue="TestNG.C03_SoftAssert" />
         <item itemvalue="TestNG.P01" />
         <item itemvalue="TestNG.Log4jTest1.log4JTest1" />
         <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/test/CrossBrowserParalelCalistirma.xml" />
-        <item itemvalue="TestNG.C02_HardAssert" />
-        <item itemvalue="TestNG.C02_DataProvider" />
       </list>
     </recent_temporary>
   </component>

@@ -10,7 +10,7 @@ import utilities.TestBaseCross;
 
 public class C03_SoftAssert extends TestBaseCross {
     @Test
-    public void test01() {
+    public void test01() throws InterruptedException {
 
         SoftAssert softAssert = new SoftAssert();
 
@@ -21,7 +21,7 @@ public class C03_SoftAssert extends TestBaseCross {
         softAssert.assertTrue(driver.getTitle().contains("Amazon"),"Girdiğiniz kelimeyi içermiyor");
 
         //3-arama kutusnun erişilebilir oldugunu tets edin
-        WebElement aramaKutusu = driver.findElement(By.id("twotabsearchtextbox"));
+        WebElement aramaKutusu = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
         softAssert.assertTrue(aramaKutusu.isEnabled(),"WE erişilemez");
 
         //4-arama kutusuna Nuella yazıp aratın
