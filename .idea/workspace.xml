@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/log4J/Log4JTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day22/C02_HardAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C02_HardAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day22/C03_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day22/C03_SoftAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day23/C01_DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day23/C01_DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day21/C01_ScreenShotReusableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day21/C01_ScreenShotReusableMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/log4J/Log4jTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/log4J/Log4jTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="tests.day22" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Log4jTest1.log4JTest1">
+  <component name="RunManager" selected="TestNG.Log4JTest2">
     <configuration name="C01_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
@@ -93,10 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/CrossBrowserParalelCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Log4JTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/CrossBrowserParalelCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.log4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.log4J" />
+      <option name="MAIN_CLASS_NAME" value="tests.log4J.Log4JTest2" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -140,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Log4jTest1.log4JTest1" />
+        <item itemvalue="TestNG.Log4JTest2" />
         <item itemvalue="TestNG.Log4jTest1" />
+        <item itemvalue="TestNG.Log4jTest1.log4JTest1" />
         <item itemvalue="TestNG.C02_DataProvider" />
         <item itemvalue="TestNG.C01_DataProvider" />
-        <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/CrossBrowserParalelCalistirma.xml" />
       </list>
     </recent_temporary>
   </component>
