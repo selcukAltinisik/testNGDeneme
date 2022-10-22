@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ListenersTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Listeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,24 +54,7 @@
       <recent name="tests.day22" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Log4JTest2">
-    <configuration name="C01_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day23" />
-      <option name="MAIN_CLASS_NAME" value="tests.day23.C01_DataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ListenersTest1">
     <configuration name="C02_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
@@ -84,6 +65,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.day23" />
       <option name="MAIN_CLASS_NAME" value="tests.day23.C02_DataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListenersTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ListenersTest1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -145,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ListenersTest1" />
         <item itemvalue="TestNG.Log4JTest2" />
         <item itemvalue="TestNG.Log4jTest1" />
         <item itemvalue="TestNG.Log4jTest1.log4JTest1" />
         <item itemvalue="TestNG.C02_DataProvider" />
-        <item itemvalue="TestNG.C01_DataProvider" />
       </list>
     </recent_temporary>
   </component>
