@@ -46,7 +46,7 @@ public class Listeners implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-//        System.out.println("onTestFailure - Failed edilen Method sayisi kadar, ve Failed edilen methodlardan SONRA bir kez calisir => "+result.getName());
+//      System.out.println("onTestFailure - Failed edilen Method sayisi kadar, ve Failed edilen methodlardan SONRA bir kez calisir => "+result.getName());
 
         try {
             ReusableMethods.getScreenshot(result.getName());
