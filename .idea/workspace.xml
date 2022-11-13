@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ed1543-551c-4e02-940d-ef7dcb4df817" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeleniumGrid1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeleniumGrid2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SeleniumGrid1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SeleniumGrid2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SeleniumGrid3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,31 +36,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/test/java/utilities&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/selcu/IdeaProjects/comBatch81TestNG/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src" />
+      <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src\test\java" />
       <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src\test\java\utilities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src" />
+      <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src\test\java" />
+      <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src\test" />
       <recent name="C:\Users\selcu\IdeaProjects\comBatch81TestNG\src\test\java\tests\day22" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
       <recent name="tests.day22" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/listeners.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/SeleniumGrid1.xml">
     <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/listeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/listeners.xml" />
@@ -65,7 +77,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListenersTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/SeleniumGrid1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/SeleniumGrid1.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/SeleniumGrid2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/SeleniumGrid2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/SeleniumGrid.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comBatch81TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/SeleniumGrid.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumGrid3.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="comBatch81TestNG" />
       <extension name="coverage">
         <pattern>
@@ -74,59 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ListenersTest1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Log4JTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.log4J.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.log4J" />
-      <option name="MAIN_CLASS_NAME" value="tests.log4J.Log4JTest2" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Log4jTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.log4J.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.log4J" />
-      <option name="MAIN_CLASS_NAME" value="tests.log4J.Log4jTest1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Log4jTest1.log4JTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="comBatch81TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.log4J.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.log4J" />
-      <option name="MAIN_CLASS_NAME" value="tests.log4J.Log4jTest1" />
-      <option name="METHOD_NAME" value="log4JTest1" />
+      <option name="MAIN_CLASS_NAME" value="tests.SeleniumGrid3" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/SeleniumGrid1.xml" />
+        <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/SeleniumGrid2.xml" />
+        <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/src/SeleniumGrid.xml" />
         <item itemvalue="TestNG.C:/Users/selcu/IdeaProjects/comBatch81TestNG/listeners.xml" />
-        <item itemvalue="TestNG.ListenersTest1" />
-        <item itemvalue="TestNG.Log4JTest2" />
-        <item itemvalue="TestNG.Log4jTest1" />
-        <item itemvalue="TestNG.Log4jTest1.log4JTest1" />
+        <item itemvalue="TestNG.SeleniumGrid3.test1" />
       </list>
     </recent_temporary>
   </component>
